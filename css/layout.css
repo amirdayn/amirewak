@@ -1,0 +1,27 @@
+.header {
+    background-color: #0b2b50;
+    color: #ffffff;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    padding: 2rem 0;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.footer {
+    background-color: #0b2b50;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
